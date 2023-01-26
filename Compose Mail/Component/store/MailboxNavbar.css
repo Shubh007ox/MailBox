@@ -1,0 +1,48 @@
+.mailbox-navbar {
+  background-color: #2899e5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mailbox-brand {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.mailbox-nav-links a {
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+  margin-right: 20px;
+  text-decoration:line-through;
+}
+
+.mailbox-nav-links a:hover {
+  color: #0077c9;
+  text-decoration: underline;
+}
+
+.mailbox-search {
+  display: flex;
+  align-items: center;
+}
+
+.mailbox-search input {
+  background-color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 18px;
+  width: 300px;
+}
+
+.mailbox-search button {
+  background-color: #0077c9;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
