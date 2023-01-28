@@ -1,0 +1,70 @@
+.container {
+  padding: 4rem;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+.editors{
+    height: 23rem;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #007bff;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 1.5rem;
+  padding: 0.4rem;
+  transition: border-bottom 0.2s ease-in;
+
+}
+
+.form-control {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #007bff;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+  transition: border-bottom 0.2s ease-in;
+}
+
+.form-control:focus {
+  border-bottom: 2px solid #0056b3;
+  outline: none;
+}
+
+.form-label {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.btn {
+  background: #007bff;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  transition: background 0.2s ease-in;
+}
+
+.btn:hover {
+  background: #1244a1;
+  cursor: pointer;
+}
+
+textarea {
+  border: 2px solid #007bff;
+  border-radius: 0.25rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  transition: border 0.2s ease-in;
+}
+
+textarea:focus {
+  border: 2px solid #0056b3;
+  outline: none;
+}
