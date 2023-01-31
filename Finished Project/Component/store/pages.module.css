@@ -1,0 +1,86 @@
+.container {
+  background: linear-gradient(to bottom, #a1b1d3, #fff);
+  height: 100vh;
+  padding: 2rem;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 2.6rem;
+  margin-top: 2rem;
+
+}
+
+.form-control {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #007bff;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+  transition: border-bottom 0.2s ease-in;
+}
+
+.form-control:focus {
+  border-bottom: 2px solid #0056b3;
+  outline: none;
+}
+
+.form-label {
+  font-size: 1.5rem;
+  font-weight:bold;
+  
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  background: #007bff;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  transition: background 0.2s ease-in;
+}
+
+.btn:hover {
+  background: #0056b3;
+  cursor: pointer;
+}
+
+.nav-item {
+  margin: .5rem;
+}
+
+.nav-link {
+  color: #002fff;
+  font-size: 2.4rem;
+  margin: 2rem;
+  transition: color 0.2s ease-in;
+}
+
+.nav-link:hover {
+  color: #05152e;
+  cursor: pointer;
+}
+.nav-link :active {
+  text-decoration: line-through;
+  color:#007bff;
+}
+
+.btns {
+  background: #020d1a;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  transition: background 0.2s ease-in;
+}
+
+.btns:hover {
+  background: #0056b3;
+  cursor: pointer;
+}
